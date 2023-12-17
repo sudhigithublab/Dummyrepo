@@ -1,5 +1,7 @@
 - name: Copying files from source to destination
   hosts: webservers
   gather_facts: true
-  roles:
-    - copy
+  tasks:
+    - name: including role
+      include_role: copy
+      
