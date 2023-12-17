@@ -4,4 +4,7 @@
   tasks:
     - name: including role
       include_role: copy
+
+    - name: Including editing file
+      include_role: Editingfile
       
