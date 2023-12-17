@@ -1,1 +1,5 @@
-
+- name: copy src to dest
+  copy:
+    src: /home/downloads/sk.txt
+    dest: /home/desktop/abc/
+    
