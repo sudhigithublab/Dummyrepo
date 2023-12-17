@@ -7,4 +7,7 @@
 
     - name: Including editing file
       include_role: Editingfile
+
+      - name:
+        command: cat abc.txt
       
